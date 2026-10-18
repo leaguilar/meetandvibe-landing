@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760">
+  <defs>
+    <pattern id="windows" width="31" height="41" patternUnits="userSpaceOnUse"><path d="M10 10h11v23H10z" fill="#3c584e" opacity=".7"/><path d="M15.5 10v23M10 21h11" stroke="#dfb991" stroke-width="1.5"/></pattern>
+    <pattern id="windows2" width="37" height="43" patternUnits="userSpaceOnUse"><path d="M11 10h14v25H11z" fill="#456451"/><path d="M18 10v25M11 22h14" stroke="#c2b8a2" stroke-width="2"/></pattern>
+    <pattern id="grain" width="23" height="19" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r=".7" fill="#294837" opacity=".09"/><circle cx="17" cy="14" r=".7" fill="#fff" opacity=".18"/></pattern>
+    <g id="tree"><path d="m0 0 2 110" stroke="#385843" stroke-width="7"/><path d="m2 63-21-27M2 42l20-19" stroke="#385843" stroke-width="4"/><path d="M-40 9c-20-24-2-49 13-46-3-24 17-43 38-30 22-4 38 20 29 35 26 11 23 45 5 50-15 30-58 27-85-9Z" fill="currentColor"/></g>
+  </defs>
+  <path fill="#dfe5d3" d="M0 0h720v760H0z"/>
+  <circle cx="505" cy="145" r="68" fill="#edc79b"/>
+  <path d="M61 155c41-22 61-14 91-4M552 222c49-18 78-13 115 3" stroke="#f3f1e6" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <!-- Berlin skyline and TV Tower. -->
+  <g stroke="#526c5d" fill="none"><path d="m444 309 9-151m12 151-8-151" stroke-width="4"/><path d="M455 128V60" stroke-width="3"/><path d="M455 60V44" stroke-width="1.5"/><ellipse cx="455" cy="146" rx="27" ry="15" fill="#9aa993" stroke-width="2"/><path d="M430 146h50M436 139h38M436 153h38" stroke-width="2"/></g>
+  <g fill="#b7c0a7"><path d="M282 315v-83h46v83m9 0V203h60v112m-55-112 25-17 25 17m142 112v-83h42v83m-34-83v-14h26v14m-20-14v-12h14v12m-7-12v-19m55 128v-47h72v47"/><path d="M0 277h720v67H0z"/></g>
+  <!-- Painted neighbourhood facades. -->
+  <g><path d="M-20 235h146v189H-20z" fill="#ca9170"/><path d="m-27 235 16-27h124l20 27" fill="#6a7662"/><path d="M-14 246h128v171H-14z" fill="url(#windows)"/><path d="M-20 297h146M-20 340h146M-20 387h146" stroke="#e2b28c" stroke-width="4"/><path d="M132 207h135v220H132z" fill="#d5b183"/><path d="M126 207h149v-10H126z" fill="#9b997d"/><path d="m141 196 58-42 59 42" fill="#b9a27d"/><path d="M144 219h112v197H144z" fill="url(#windows)"/><path d="M132 260h135M132 303h135M132 346h135M132 390h135" stroke="#e6c89d" stroke-width="4"/><path d="M276 264h110v162H276z" fill="#a7b19a"/><path d="M272 263h118v-9H272z" fill="#748671"/><path d="M284 271h95v146h-95z" fill="url(#windows2)"/><path d="M576 278h149v145H576z" fill="#d5b694"/><path d="m570 278 16-22h125l20 22" fill="#75826b"/><path d="M587 284h126v132H587z" fill="url(#windows)"/></g>
+  <path d="M0 418c204-19 436-22 720 0v98H0z" fill="#91a38b"/>
+  <!-- Water and a sweeping footpath. -->
+  <path d="M720 431C479 436 264 493 341 584s151 104 77 176h302Z" fill="#9ab9ad"/>
+  <g fill="none" stroke="#c5d5c0" stroke-width="3" stroke-linecap="round"><path d="m495 482 70-8m22 34 77-8m-229 32 52-6m35 30 74-3m30-30h31m-121 76 99 12m-47 32 68 10m-105 57 73 17m-136 16 46 8"/></g>
+  <path d="M0 459c176-19 331-4 307 66-14 41-132 53-111 107 15 37 107 52 113 128H0Z" fill="#a5b28b"/>
+  <path d="M335 431c-168 94-218 117-144 178 70 58 172 67 166 151h126c-14-91-114-128-184-175-51-34-8-79 84-154Z" fill="#e9d4ac"/>
+  <path d="M373 431c-92 75-135 120-84 154 70 47 170 84 184 175" stroke="#f4e6c9" stroke-width="5" fill="none"/>
+  <path d="M0 674c103-53 151 21 222 31l31 55H0Z" fill="#7d956f"/>
+  <!-- Footbridge. -->
+  <path d="M341 488c118-49 219-55 379-47" stroke="#3b5d4b" stroke-width="16" fill="none"/>
+  <path d="M341 453c118-49 219-55 379-47" stroke="#496a56" stroke-width="5" fill="none"/>
+  <g stroke="#496a56" stroke-width="4"><path d="M356 449v32m36-45v31m37-43v31m39-40v30m40-36v30m41-34v30m40-31v30m40-30v30m41-29v30m40-28v30"/></g>
+  <!-- Trees and foreground foliage. -->
+  <use href="#tree" x="44" y="364" style="color:#587950" transform="rotate(-5 44 364)"/>
+  <use href="#tree" x="93" y="435" style="color:#456c4d" transform="scale(1.1) translate(-8 -45)"/>
+  <use href="#tree" x="420" y="335" style="color:#6c875b" transform="translate(7 40) scale(.9)"/>
+  <use href="#tree" x="659" y="338" style="color:#55784d"/>
+  <use href="#tree" x="708" y="362" style="color:#3a6249" transform="rotate(8 708 362)"/>
+  <g fill="#3c664b"><path d="M0 760V522c30-30 57-4 48 22 54-14 87 23 69 52 37 13 45 45 22 65 41 33 37 66 15 99Z"/><path d="M720 760V565c-32-25-58 5-43 30-55-1-75 30-52 56-45 16-42 52-20 66-10 16-9 30-2 43Z"/></g>
+  <g stroke="#73906a" stroke-width="3" fill="none"><path d="M29 760 17 582m7 62 36-32m-35 56-22-30m24 67 57-33M685 760l16-122m-11 79-34-29m38 4 25-20"/></g>
+  <!-- Six people heading out together. -->
+  <g transform="translate(271 471)"><path d="m-9 52-7 42m24-42 12 39" stroke="#3f5147" stroke-width="12" stroke-linecap="round"/><path d="m-17 95-9 2m47-5 9 4" stroke="#f5eee0" stroke-width="8" stroke-linecap="round"/><path d="M-20 7q20-11 36 0l5 49h-44Z" fill="#ba593e"/><path d="m-19 14-13 27m48-26 14 18" stroke="#aa7753" stroke-width="9" stroke-linecap="round"/><circle cy="-7" r="13" fill="#b7855e"/><path d="M-13-9q-3-21 17-17 14 3 10 19L5-16-9-11Z" fill="#35483b"/></g>
+  <g transform="translate(319 502)"><path d="m-7 54-1 42m18-43 16 38" stroke="#bb8160" stroke-width="10" stroke-linecap="round"/><path d="m-9 97-9 2m45-7 9 2" stroke="#f8f0df" stroke-width="8" stroke-linecap="round"/><path d="M-16 6q13-9 28-2l7 34 6 19h-46l6-22Z" fill="#e3bc72"/><path d="m-16 12-14 24m43-24 12 25" stroke="#bb8160" stroke-width="8" stroke-linecap="round"/><path d="M-13 1c-9-23 4-36 17-30 16 1 15 18 14 30Z" fill="#4c4533"/><circle cy="-12" r="11" fill="#bb8160"/><path d="M-11-13q-1-20 17-13l9 14-13-8Z" fill="#4c4533"/></g>
+  <g transform="translate(232 537)"><path d="m-6 51-12 52m25-50 12 48" stroke="#2e5146" stroke-width="13" stroke-linecap="round"/><path d="m-20 105-8 1m49-4 8 1" stroke="#eeeadd" stroke-width="8" stroke-linecap="round"/><path d="M-20 8q20-13 38 0l5 47h-46Z" fill="#e8e9d7"/><path d="m-22 15-12 26 8 9m46-34 11 23" stroke="#795d46" stroke-width="9" stroke-linecap="round"/><circle cy="-7" r="13" fill="#795d46"/><path d="M-13-9q-5-21 14-20 19 0 14 21l-9-10-17 5Z" fill="#2c3b32"/><path d="m-9 8 15 47" stroke="#a86c47" stroke-width="4"/><rect x="1" y="35" width="18" height="24" rx="5" fill="#b98050"/></g>
+  <g transform="translate(325 593)"><path d="m-9 57-10 48m27-48 19 41" stroke="#6f7863" stroke-width="14" stroke-linecap="round"/><path d="m-21 107-10 1m61-9 10 3" stroke="#e9e7d6" stroke-width="9" stroke-linecap="round"/><path d="M-22 10q20-15 42 0l6 52h-52Z" fill="#b95036"/><path d="m-23 19-9 27-17-9m70-19 13 29" stroke="#d4a17b" stroke-width="10" stroke-linecap="round"/><circle cy="-6" r="14" fill="#d4a17b"/><path d="M-14-8q-1-25 19-22 17 3 11 22L4-18l-14 5Z" fill="#78543b"/></g>
+  <g transform="translate(388 620)"><path d="m-10 55-5 46m25-47 9 44" stroke="#314f45" stroke-width="13" stroke-linecap="round"/><path d="m-17 104-10 1m48-6 10 4" stroke="#ebe5d6" stroke-width="9" stroke-linecap="round"/><path d="M-21 8q21-10 40 0l5 51h-48Z" fill="#d8b36d"/><path d="m-21 17-10 23m51-24 10 27-11 8" stroke="#93664a" stroke-width="10" stroke-linecap="round"/><circle cy="-8" r="14" fill="#93664a"/><path d="M-15-6q-5-29 17-28 22 2 14 27L3-20Z" fill="#343c2f"/><path d="M-10 11h21v31h-21z" fill="#8b9a7c"/><path d="M-10 11q10-14 21 0" stroke="#8b9a7c" stroke-width="4" fill="none"/></g>
+  <g transform="translate(464 680)"><path d="m-8 46-5 34m19-34 10 34" stroke="#c38a64" stroke-width="10" stroke-linecap="round"/><path d="M-16 7q16-9 31 0l9 48h-47Z" fill="#e9e7d5"/><path d="m-17 16-18 14m52-13 16 17" stroke="#c38a64" stroke-width="8" stroke-linecap="round"/><path d="M-16 1q-12-38 15-34Q28-32 17 1" fill="#5a4731"/><circle cy="-10" r="12" fill="#c38a64"/><path d="m-14-14 6-15q20-5 24 18L2-20Z" fill="#5a4731"/></g>
+  <!-- Tiny discoveries, flowers, and birds. -->
+  <g stroke="#506849" stroke-width="2" fill="none"><path d="m160 659 3-15m-3 9-7-5m25 38 3-16m-3 10 7-5m369 43 2-16m-2 8-7-4"/></g><g fill="#e8c085"><circle cx="164" cy="643" r="4"/><circle cx="181" cy="667" r="4"/><circle cx="553" cy="700" r="4"/></g><path d="m304 129 9-4 9 4m24-26 8-3 8 3m-95 67 7-3 7 3" stroke="#56705b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path fill="url(#grain)" d="M0 0h720v760H0z"/>
+</svg>
