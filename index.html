@@ -3,75 +3,626 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f5ed">
-  <title>meet&vibe — Meet online. Make memories offline.</title>
-  <meta name="description" content="Your next great connection starts with a walk. meet&vibe matches you with people to discover Berlin together. Real people, shared experiences. Coming soon.">
+  <title>meet&amp;vibe: meet real people, real life, good vibes</title>
+  <meta name="description" content="meet&amp;vibe brings people together for real-life experiences, starting with walks through Berlin in groups of four. Afterwards, only mutual choices to meet again are revealed.">
   <link rel="canonical" href="https://meetandvibe.com/">
+  
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fbf8f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151a18" media="(prefers-color-scheme: dark)">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="meet&vibe — Less scrolling. More living.">
-  <meta property="og:description" content="Meet your people. Explore Berlin. See if you vibe. In-person experiences, made possible by a little online matchmaking. Coming soon.">
+  <meta property="og:site_name" content="meet&amp;vibe">
+  <meta property="og:title" content="meet&amp;vibe: meet real people, real life, good vibes">
+  <meta property="og:description" content="meet&amp;vibe brings people together for real-life experiences, starting with walks through Berlin in groups of four. Afterwards, only mutual choices to meet again are revealed.">
   <meta property="og:url" content="https://meetandvibe.com/">
-  <meta property="og:site_name" content="meet&vibe">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/site-SMSFI3ER.css">
+  <link rel="preload" href="./assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <script type="module" src="./assets/walks-REP6BSW5.js"></script>
 </head>
-<body>
+<body class="page-home">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="wordmark" href="#" aria-label="meet&amp;vibe. home">meet<span>&</span>vibe<span class="brand-dot">.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#how-it-works">How it works</a>
-      <a href="#berlin">Why Berlin?</a>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="./" aria-label="meet&amp;vibe home"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="6.5" r="5.5" class="f-coral"/><circle cx="25.5" cy="16" r="5.5" class="f-teal"/><circle cx="16" cy="25.5" r="5.5" class="f-linden"/><circle cx="6.5" cy="16" r="5.5" class="f-sun"/></svg><span class="brand__word">meet<span class="brand__amp">&amp;</span>vibe</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul role="list">
+        <li><a href="./#how">How it works</a></li>
+        <li><a href="./#safety">Safety</a></li>
+        <li><a href="./#faq">FAQ</a></li>
+        <li><a href="./about/">About</a></li>
+      </ul>
     </nav>
-    <a class="button button-small" href="#first-walks">Find your next detour <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-  </header>
-
-  <main id="main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> A little online. A lot of real life.</p>
-        <h1 id="hero-title">Less scrolling.<br>More <em>living.</em></h1>
-        <p class="hero-description">Good people. New places. That feeling of just clicking. We bring you together for real-life experiences — starting with walks through Berlin.</p>
-        <a class="button" href="#first-walks">Explore the first walks <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-        <p class="launch-note"><span aria-hidden="true">◎</span> First stop: Berlin <span class="note-divider">/</span> Coming soon</p>
+    <a class="button button--coral button--small site-header__cta" href="./#walks">Next walks</a>
+  </div>
+</header>
+  <main id="main" tabindex="-1">
+    <svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <defs>
+    <symbol id="mv-person" viewBox="0 0 40 100" overflow="visible">
+      <path d="M16.5 66 L14 96" style="stroke: var(--legs, #262c2a)" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+      <path d="M23.5 66 L28 95" style="stroke: var(--legs, #262c2a)" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+      <path d="M10.5 38 Q5.5 50 8 61" style="stroke: var(--body)" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <path d="M29.5 38 Q35 49 32.5 59" style="stroke: var(--body)" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <circle cx="8" cy="62" r="3.4" style="fill: var(--skin)"/>
+      <circle cx="32.5" cy="60" r="3.4" style="fill: var(--skin)"/>
+      <path d="M9 41 Q9 29.5 20 29.5 Q31 29.5 31 41 L32 68.5 Q20 72.5 8 68.5 Z" style="fill: var(--body)"/>
+      <rect x="17" y="24" width="6" height="7" rx="2" style="fill: var(--skin)"/>
+      <circle cx="20" cy="16" r="10.5" style="fill: var(--skin)"/>
+    </symbol>
+    <symbol id="mv-person-wave" viewBox="0 0 40 100" overflow="visible">
+      <path d="M16.5 66 L15 96" style="stroke: var(--legs, #262c2a)" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+      <path d="M23.5 66 L25.5 96" style="stroke: var(--legs, #262c2a)" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+      <path d="M10.5 38 Q5.5 50 8 61" style="stroke: var(--body)" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <path d="M29.5 37 Q37 30 38 18" style="stroke: var(--body)" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <circle cx="8" cy="62" r="3.4" style="fill: var(--skin)"/>
+      <circle cx="38.2" cy="15.5" r="3.6" style="fill: var(--skin)"/>
+      <path d="M9 41 Q9 29.5 20 29.5 Q31 29.5 31 41 L32 68.5 Q20 72.5 8 68.5 Z" style="fill: var(--body)"/>
+      <rect x="17" y="24" width="6" height="7" rx="2" style="fill: var(--skin)"/>
+      <circle cx="20" cy="16" r="10.5" style="fill: var(--skin)"/>
+    </symbol>
+    <symbol id="mv-bust" viewBox="0 0 40 100" overflow="visible">
+      <path d="M5 46 Q5 30 20 30 Q35 30 35 46 Z" style="fill: var(--body)"/>
+      <rect x="17" y="24" width="6" height="7" rx="2" style="fill: var(--skin)"/>
+      <circle cx="20" cy="16" r="10.5" style="fill: var(--skin)"/>
+    </symbol>
+    <symbol id="mv-hair-short" viewBox="0 0 40 100" overflow="visible">
+      <path d="M9.2 16.5 Q8 4.5 20 4.2 Q32 4.5 30.8 15.5 Q27 10.5 21 11.5 Q14 11 9.2 16.5 Z" style="fill: var(--hair)"/>
+    </symbol>
+    <symbol id="mv-hair-long" viewBox="0 0 40 100" overflow="visible">
+      <path d="M8.5 17 Q8 4 20 4 Q32 4 31.5 17 L32.5 34 Q28.5 33 27.8 24 Q27 13 20 12 Q13 13 12.2 24 Q11.5 33 7.5 34 Z" style="fill: var(--hair)"/>
+    </symbol>
+    <symbol id="mv-hair-bun" viewBox="0 0 40 100" overflow="visible">
+      <circle cx="20" cy="3.2" r="5.2" style="fill: var(--hair)"/>
+      <path d="M9.3 16 Q8.5 5.5 20 5.2 Q31.5 5.5 30.7 16 Q26 11.2 20 11.4 Q14 11.2 9.3 16 Z" style="fill: var(--hair)"/>
+    </symbol>
+    <symbol id="mv-hair-curly" viewBox="0 0 40 100" overflow="visible">
+      <g style="fill: var(--hair)">
+        <circle cx="10.5" cy="13" r="4.6"/>
+        <circle cx="14" cy="7.5" r="4.8"/>
+        <circle cx="20" cy="5.2" r="5"/>
+        <circle cx="26" cy="7.5" r="4.8"/>
+        <circle cx="29.5" cy="13" r="4.6"/>
+      </g>
+    </symbol>
+    <symbol id="mv-beanie" viewBox="0 0 40 100" overflow="visible">
+      <path d="M9 14.5 Q9 3 20 3 Q31 3 31 14.5 Z" style="fill: var(--hat)"/>
+      <rect x="8" y="11.5" width="24" height="5" rx="2.5" style="fill: var(--hat)"/>
+      <rect x="8" y="11.5" width="24" height="5" rx="2.5" fill="#000" opacity=".12"/>
+      <circle cx="20" cy="1.5" r="3.6" style="fill: var(--hat)"/>
+    </symbol>
+  </defs>
+</svg>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <p class="kicker">Meet real people, real life, good vibes.</p>
+      <h1 class="hero__title" id="hero-title">Less scrolling. <span class="hero__accent">More living.</span></h1>
+      <p class="hero__lead">Good people. New places. That feeling of just clicking. meet&amp;vibe brings people together for real-life experiences, starting with walks through Berlin in groups of four, with new faces every twenty minutes. You'll make cool friends, or maybe find your special someone.</p>
+      <div class="hero__actions">
+        <a class="button button--coral" href="#walks">See the next walks</a>
+        <a class="button button--ghost" href="#how">How a walk works</a>
       </div>
-      <div class="hero-art">
-        <div class="art-label"><span class="status-dot"></span> OFFLINE IS A GOOD PLACE TO BE</div>
-        <img class="berlin-illustration" src="assets/berlin.svg" width="720" height="760" alt="An illustrated group exploring a leafy Berlin riverside, with the TV Tower and colourful neighbourhood buildings in the distance.">
-        <div class="art-sticker"><span class="sticker-icon" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M32 5v54M5 32h54M13 13l38 38M13 51l38-38" stroke="currentColor" stroke-width="7" stroke-linecap="round"/></svg></span><span>New routes.<br><strong>Real connections.</strong></span></div>
-        <span class="art-caption">Your people are out there.</span>
+    </div>
+    <div class="hero__art"><svg class="art art--hero" viewBox="0 0 600 460" aria-hidden="true" focusable="false">
+  <defs><clipPath id="hero-frame"><rect width="600" height="460" rx="40"/></clipPath></defs>
+  <g clip-path="url(#hero-frame)">
+  <rect width="600" height="460" class="f-sky"/>
+  <g class="il-sun-rays"><circle cx="470" cy="95" r="70" fill="none" class="s-sun" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 17"/></g>
+  <circle cx="470" cy="95" r="50" class="f-sun"/>
+  <path class="il-cloud f-cloud" d="M104 104 a20 20 0 0 1 26 -25 a28 28 0 0 1 53 4 a19 19 0 0 1 9 37 h-78 a17 17 0 0 1 -10 -16 z"/>
+  <path class="il-cloud il-cloud--slow f-cloud" d="M330 52 a14 14 0 0 1 19 -15 a19 19 0 0 1 35 4 a12 12 0 0 1 4 23 h-50 a11 11 0 0 1 -8 -12 z"/>
+  <path d="M280 120 q6 -6 12 0 q6 -6 12 0 M318 104 q4.5 -4.5 9 0 q4.5 -4.5 9 0" fill="none" class="s-ink-soft" stroke-width="2.4" stroke-linecap="round"/>
+
+  <g class="f-far">
+    <rect x="68.6" y="30" width="2.8" height="72" rx="1.4"/>
+    <rect x="65" y="94" width="10" height="10" rx="2"/>
+    <circle cx="70" cy="118" r="19"/>
+    <path d="M63.5 134 L76.5 134 L80 340 L60 340 Z"/>
+  </g>
+  <rect x="49" y="114" width="42" height="6" rx="3" class="f-far-band"/>
+
+  <path class="f-hill-far" d="M0 312 C 90 282, 170 288, 262 302 S 452 270, 600 284 L600 460 L0 460 Z"/>
+  <g>
+    <rect x="223" y="268" width="6" height="40" rx="3" class="f-trunk"/>
+    <circle cx="226" cy="258" r="24" class="f-tree-dark"/>
+    <rect x="517" y="250" width="7" height="44" rx="3.5" class="f-trunk"/>
+    <circle cx="520" cy="240" r="29" class="f-tree"/>
+    <circle cx="511" cy="231" r="11" class="f-tree-light"/>
+    <rect x="559" y="268" width="5" height="26" rx="2.5" class="f-trunk"/>
+    <circle cx="561" cy="262" r="17" class="f-tree-dark"/>
+  </g>
+
+  <path class="f-hill" d="M0 350 C 120 326, 250 336, 362 345 S 522 330, 600 320 L600 460 L0 460 Z"/>
+  <path d="M-20 404 C 120 394, 250 382, 380 373 S 560 346, 640 338" fill="none" class="s-path" stroke-width="30" stroke-linecap="round"/>
+  <path class="f-river" d="M0 422 C 120 412, 260 432, 380 420 S 540 408, 600 416 L600 460 L0 460 Z"/>
+  <path d="M40 442 q12 -6 24 0 t24 0 M200 448 q12 -6 24 0 t24 0 M420 440 q12 -6 24 0 t24 0" fill="none" class="s-river-light" stroke-width="2.6" stroke-linecap="round"/>
+
+  <g>
+    <rect x="22" y="300" width="10" height="100" rx="5" class="f-trunk"/>
+    <circle cx="27" cy="292" r="42" class="f-tree"/>
+    <circle cx="12" cy="276" r="15" class="f-tree-light"/>
+  </g>
+
+  <g class="il-group il-group--back">
+    <circle cx="415" cy="276" r="13" class="f-teal"/>
+    <text x="415" y="281.5" text-anchor="middle" class="il-badge-text" font-size="15">7</text>
+    <g style="--body: var(--il-sun); --skin: #e0a878; --hair: #2a1d16"><use href="#mv-person" x="372" y="302" width="28.8" height="72"/><use href="#mv-hair-curly" x="372" y="302" width="28.8" height="72"/></g>
+    <g style="--body: var(--il-coral); --skin: #f3cfa8; --hair: #d6a24a"><use href="#mv-person" x="397" y="299" width="28.8" height="72"/><use href="#mv-hair-long" x="397" y="299" width="28.8" height="72"/></g>
+    <g style="--body: var(--il-linden-deep); --skin: #7a4a2c; --hair: #141414"><use href="#mv-person" x="424" y="296" width="28.8" height="72"/><use href="#mv-hair-short" x="424" y="296" width="28.8" height="72"/></g>
+    <g style="--body: var(--il-teal); --skin: #b0744a; --hat: var(--il-coral)"><use href="#mv-person" x="450" y="293" width="28.8" height="72"/><use href="#mv-beanie" x="450" y="293" width="28.8" height="72"/></g>
+  </g>
+
+  <g class="il-group il-group--front">
+    <circle cx="170" cy="268" r="16" class="f-coral"/>
+    <text x="170" y="274.5" text-anchor="middle" class="il-badge-text" font-size="18">3</text>
+    <g style="--body: var(--il-teal); --skin: #f3cfa8; --hair: #7a3f22"><use href="#mv-person" x="94" y="301" width="42" height="105"/><use href="#mv-hair-bun" x="94" y="301" width="42" height="105"/></g>
+    <g style="--body: var(--il-sun); --skin: #7a4a2c; --hair: #141414"><use href="#mv-person" x="134" y="297" width="42" height="105"/><use href="#mv-hair-curly" x="134" y="297" width="42" height="105"/></g>
+    <g style="--body: var(--il-coral); --skin: #e0a878; --hair: #a9a29a"><use href="#mv-person" x="175" y="293" width="42" height="105"/><use href="#mv-hair-short" x="175" y="293" width="42" height="105"/></g>
+    <g style="--body: var(--il-linden-deep); --skin: #b0744a; --hair: #2a1d16"><use href="#mv-person" x="215" y="289" width="42" height="105"/><use href="#mv-hair-long" x="215" y="289" width="42" height="105"/></g>
+    <path d="M249 352 Q268 372 286 368" fill="none" class="s-ink-soft" stroke-width="1.6"/>
+    <g class="il-dog">
+      <path d="M262 371 q-12 -8 -10 -18" fill="none" class="s-dog il-dog-tail" stroke-width="4" stroke-linecap="round"/>
+      <path d="M266 380 L265 392 M274 381 L274 392 M284 381 L285 391 M292 379 L294 390" class="s-dog" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="279" cy="374" rx="18" ry="9.5" class="f-dog"/>
+      <circle cx="296" cy="364" r="8.5" class="f-dog"/>
+      <ellipse cx="303" cy="367" rx="5" ry="3.6" class="f-dog"/>
+      <path d="M290 358 q-4 4 -2 11 q5 -2 6 -9 z" class="f-dog-dark"/>
+      <circle cx="298" cy="362" r="1.4" class="f-ink"/>
+      <circle cx="307.4" cy="366" r="1.6" class="f-ink"/>
+    </g>
+  </g>
+  </g>
+</svg></div>
+  </div>
+  <div class="container">
+    <ul class="facts" role="list">
+      <li><strong>About 2 hours</strong> on a Saturday</li>
+      <li><strong>5 rounds</strong> of 20 minutes each</li>
+      <li><strong>Up to 15 people</strong> met in one walk</li>
+      <li><strong>Only mutual</strong> choices are revealed</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--sand" id="how" aria-labelledby="how-title">
+  <svg class="wave wave--top" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 40 V22 C 160 4, 320 4, 480 18 S 800 36, 960 20 S 1280 2, 1440 16 V40 Z"/></svg>
+  <div class="container">
+    <header class="section__head">
+      <p class="kicker">How it works</p>
+      <h2 id="how-title">A match is just the beginning</h2>
+      <p class="lead">The app makes the introduction. Real life does the rest.</p>
+    </header>
+    <ol class="steps" role="list">
+      <li class="step">
+        <div class="step__art"><svg class="art art--step" viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+  <g transform="rotate(-9 80 58)">
+    <path class="f-coral" d="M36 32 H94 A6 6 0 0 0 106 32 H124 A8 8 0 0 1 132 40 V78 A8 8 0 0 1 124 86 H106 A6 6 0 0 0 94 86 H36 A8 8 0 0 1 28 78 V40 A8 8 0 0 1 36 32 Z"/>
+    <path d="M100 42 V76" class="s-card-line" stroke-width="2.5" stroke-dasharray="3 4" stroke-linecap="round"/>
+    <path d="M40 72 C 50 72, 50 50, 62 52 S 74 66, 86 46" fill="none" class="s-ink" stroke-width="2.6" stroke-dasharray="1 5.5" stroke-linecap="round"/>
+    <circle cx="40" cy="72" r="4" class="f-ink"/>
+    <path d="M86 34 a7 7 0 0 1 7 7 c0 5 -7 11 -7 11 s-7 -6 -7 -11 a7 7 0 0 1 7 -7 z" class="f-ink"/>
+    <circle cx="86" cy="41" r="2.6" class="f-coral"/>
+    <circle cx="112" cy="51" r="4" class="f-paper"/>
+    <circle cx="121" cy="51" r="4" class="f-paper"/>
+    <circle cx="112" cy="60" r="4" class="f-paper"/>
+    <circle cx="121" cy="60" r="4" class="f-paper"/>
+  </g>
+  <g class="il-bob">
+    <rect x="98" y="78" width="46" height="31" rx="5" class="f-card"/>
+    <path d="M100 81 L121 96 L142 81" fill="none" class="s-ink-soft" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="98" y="78" width="46" height="31" rx="5" fill="none" class="s-ink-soft" stroke-width="2.2"/>
+    <circle cx="144" cy="78" r="8" class="f-teal"/>
+    <path d="M140.5 78 l2.5 2.5 l4.5 -5" fill="none" stroke="#fbf8f2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg></div>
+        <p class="step__num" aria-hidden="true">1</p>
+        <h3>Get a ticket</h3>
+        <p>Pick a walk and buy your ticket on Eventfrog. Sign in to meet&amp;vibe with the same email, then add a photo, six interests and three short answers.</p>
+      </li>
+      <li class="step">
+        <div class="step__art"><svg class="art art--step" viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+  <g transform="rotate(-14 40 70)">
+    <rect x="22" y="30" width="38" height="56" rx="6" class="f-card"/>
+    <rect x="26" y="34" width="30" height="26" rx="4" class="f-linden"/>
+    <circle cx="41" cy="45" r="6" fill="#7a4a2c"/>
+    <path d="M30 60 q11 -12 22 0 z" class="f-ink-soft"/>
+    <rect x="26" y="66" width="16" height="5" rx="2.5" class="f-card-line"/>
+  </g>
+  <g transform="rotate(14 120 70)">
+    <rect x="100" y="30" width="38" height="56" rx="6" class="f-card"/>
+    <rect x="104" y="34" width="30" height="26" rx="4" class="f-sun"/>
+    <circle cx="119" cy="45" r="6" fill="#f3cfa8"/>
+    <path d="M108 60 q11 -12 22 0 z" class="f-teal"/>
+    <rect x="104" y="66" width="20" height="5" rx="2.5" class="f-card-line"/>
+  </g>
+  <rect x="53" y="8" width="54" height="104" rx="11" class="f-ink"/>
+  <rect x="57" y="14" width="46" height="92" rx="7" class="f-screen"/>
+  <rect x="61" y="19" width="38" height="38" rx="5" class="f-teal"/>
+  <path d="M64 57 q16 -18 32 0 z" class="f-coral"/>
+  <rect x="77" y="36" width="6" height="7" rx="2" fill="#e0a878"/>
+  <circle cx="80" cy="33" r="8.5" fill="#e0a878"/>
+  <path d="M71.5 33 q-1 -10 8.5 -10 q9.5 0 8.5 10 q-3 -5 -8.5 -4.5 q-5.5 -0.5 -8.5 4.5 z" fill="#2a1d16"/>
+  <rect x="61" y="62" width="17" height="6" rx="3" class="f-linden"/>
+  <rect x="81" y="62" width="18" height="6" rx="3" class="f-sun"/>
+  <rect x="61" y="71" width="23" height="6" rx="3" class="f-card-line"/>
+  <circle cx="70" cy="93" r="7" class="f-card"/>
+  <circle cx="70" cy="93" r="7" fill="none" class="s-card-line" stroke-width="2"/>
+  <path d="M68 90 l3 3 l-3 3" fill="none" class="s-ink-soft" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="90" cy="93" r="7" class="f-coral"/>
+  <path d="M90 96.5 c-3 -2 -5 -3.6 -5 -5.6 a2.4 2.4 0 0 1 5 -0.8 a2.4 2.4 0 0 1 5 0.8 c0 2 -2 3.6 -5 5.6 z" fill="#1d2321"/>
+</svg></div>
+        <p class="step__num" aria-hidden="true">2</p>
+        <h3>See who's coming</h3>
+        <p>Until the walk starts, browse the other ticket holders and like the people you'd enjoy meeting. Nobody is ever told who liked them.</p>
+      </li>
+      <li class="step">
+        <div class="step__art"><svg class="art art--step" viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+  <path d="M14 106 C 32 94, 128 92, 148 102 Q 154 112 142 112 L 22 112 Q 8 112 14 106 Z" class="f-path"/>
+  <rect x="136" y="56" width="5" height="40" rx="2.5" class="f-trunk"/>
+  <circle cx="138.5" cy="50" r="17" class="f-tree"/>
+  <circle cx="132" cy="44" r="6" class="f-tree-light"/>
+  <g style="--body: var(--il-teal); --skin: #f3cfa8; --hair: #7a3f22"><use href="#mv-person" x="26" y="46" width="24" height="60"/><use href="#mv-hair-bun" x="26" y="46" width="24" height="60"/></g>
+  <g style="--body: var(--il-sun); --skin: #7a4a2c; --hair: #141414"><use href="#mv-person" x="50" y="44" width="24" height="60"/><use href="#mv-hair-curly" x="50" y="44" width="24" height="60"/></g>
+  <g style="--body: var(--il-coral); --skin: #e0a878; --hair: #a9a29a"><use href="#mv-person" x="74" y="45" width="24" height="60"/><use href="#mv-hair-short" x="74" y="45" width="24" height="60"/></g>
+  <g style="--body: var(--il-linden-deep); --skin: #b0744a; --hat: var(--il-teal)"><use href="#mv-person" x="98" y="46" width="24" height="60"/><use href="#mv-beanie" x="98" y="46" width="24" height="60"/></g>
+  <g class="il-bob">
+    <circle cx="74" cy="22" r="15" class="f-coral"/>
+    <text x="74" y="29" text-anchor="middle" class="il-badge-text il-badge-text--ink" font-size="20">3</text>
+  </g>
+</svg></div>
+        <p class="step__num" aria-hidden="true">3</p>
+        <h3>Walk in fours</h3>
+        <p>The organizer checks you in at the meeting point. Then come five rounds of twenty minutes. Your phone shows your group's number, its colour and a question to get you talking. No perfect opening line needed, just a little curiosity.</p>
+      </li>
+      <li class="step">
+        <div class="step__art"><svg class="art art--step" viewBox="0 0 160 120" aria-hidden="true" focusable="false">
+  <g class="il-sun-rays"><circle cx="128" cy="26" r="20" fill="none" class="s-sun" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="1.5 7"/></g>
+  <circle cx="128" cy="26" r="12" class="f-sun"/>
+  <g transform="rotate(-7 52 70)">
+    <rect x="18" y="40" width="64" height="58" rx="7" class="f-card"/>
+    <circle cx="38" cy="60" r="10" class="f-coral"/>
+    <circle cx="38" cy="57" r="5" fill="#f3cfa8"/>
+    <path d="M30.5 67 q7.5 -8 15 0" fill="#f3cfa8"/>
+    <rect x="53" y="54" width="22" height="5" rx="2.5" class="f-ink-soft"/>
+    <rect x="53" y="63" width="15" height="5" rx="2.5" class="f-card-line"/>
+    <rect x="26" y="78" width="48" height="5" rx="2.5" class="f-card-line"/>
+    <rect x="26" y="87" width="34" height="5" rx="2.5" class="f-card-line"/>
+  </g>
+  <g transform="rotate(7 108 74)">
+    <rect x="78" y="46" width="64" height="58" rx="7" class="f-card"/>
+    <circle cx="98" cy="66" r="10" class="f-teal"/>
+    <circle cx="98" cy="63" r="5" fill="#7a4a2c"/>
+    <path d="M90.5 73 q7.5 -8 15 0" fill="#7a4a2c"/>
+    <rect x="113" y="60" width="22" height="5" rx="2.5" class="f-ink-soft"/>
+    <rect x="113" y="69" width="15" height="5" rx="2.5" class="f-card-line"/>
+    <rect x="86" y="84" width="48" height="5" rx="2.5" class="f-card-line"/>
+    <rect x="86" y="93" width="34" height="5" rx="2.5" class="f-card-line"/>
+  </g>
+  <g class="il-bob">
+    <circle cx="80" cy="40" r="13" class="f-linden"/>
+    <path d="M73.5 40.5 l4.5 4.5 l8.5 -9" fill="none" stroke="#1d2321" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg></div>
+        <p class="step__num" aria-hidden="true">4</p>
+        <h3>See if you vibe</h3>
+        <p>Mark each person Friend, Date or Not this time. At ten the next morning you see every mutual choice, with the contact details that person chose to share.</p>
+      </li>
+    </ol>
+
+    <figure class="timeline">
+      <figcaption class="figure-title">Two hours, minute by minute</figcaption>
+      <div class="timeline__bar" aria-hidden="true">
+        <span class="timeline__seg timeline__seg--arrive" style="--minutes: 15"></span>
+        <span class="timeline__seg timeline__seg--r1" style="--minutes: 20">1</span>
+        <span class="timeline__seg timeline__seg--r2" style="--minutes: 20">2</span>
+        <span class="timeline__seg timeline__seg--r3" style="--minutes: 20">3</span>
+        <span class="timeline__seg timeline__seg--r4" style="--minutes: 20">4</span>
+        <span class="timeline__seg timeline__seg--r5" style="--minutes: 20">5</span>
+        <span class="timeline__seg timeline__seg--end" style="--minutes: 5"></span>
       </div>
-    </section>
+      <ol class="timeline__legend" role="list">
+        <li><time>0:00</time><span>Meet at the starting point, check in, hear the route and the house rules.</span></li>
+        <li><time>0:15</time><span>Five rounds. Five minutes to find your new group, fifteen to walk and talk.</span></li>
+        <li><time>1:55</time><span>End point. Say who you'd see again, then drinks nearby if you like.</span></li>
+      </ol>
+    </figure>
+  </div>
+  <svg class="wave wave--bottom" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 0 V18 C 200 36, 380 34, 560 20 S 900 2, 1080 16 S 1340 34, 1440 24 V0 Z"/></svg>
+</section>
 
-    <div class="manifesto-strip" aria-label="Made for real life"><div class="wrap"><span>Less small talk.</span><span class="strip-star" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M32 5v54M5 32h54M13 13l38 38M13 51l38-38" stroke="currentColor" stroke-width="7" stroke-linecap="round"/></svg></span><span>More shared stories.</span><span class="strip-star" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M32 5v54M5 32h54M13 13l38 38M13 51l38-38" stroke="currentColor" stroke-width="7" stroke-linecap="round"/></svg></span><span>Better together.</span><span class="strip-star" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M32 5v54M5 32h54M13 13l38 38M13 51l38-38" stroke="currentColor" stroke-width="7" stroke-linecap="round"/></svg></span><span>A little more human.</span></div></div>
+<section class="section" id="fours" aria-labelledby="fours-title">
+  <div class="container fours">
+    <div class="fours__text">
+      <p class="kicker">Less small talk. More shared stories.</p>
+      <h2 id="fours-title">Four is the friendly number</h2>
+      <p class="lead">A one-on-one with a stranger is a lot of pressure. In a group of four nobody has to carry the conversation, and every round brings three new people.</p>
+    </div>
+    <figure class="fours__art">
+      <svg class="art art--fours" viewBox="0 0 480 180" aria-hidden="true" focusable="false">
+  <g style="--you-body: var(--il-teal); --you-skin: #e0a878; --you-hair: #2a1d16">
+    <rect x="8" y="30" width="144" height="142" rx="18" class="f-tint-coral"/>
+    <rect x="168" y="30" width="144" height="142" rx="18" class="f-tint-teal"/>
+    <rect x="328" y="30" width="144" height="142" rx="18" class="f-tint-sun"/>
 
-    <section class="how-section wrap section-space" id="how-it-works" aria-labelledby="how-title">
-      <div class="section-heading"><div><p class="eyebrow">THE CONNECTION STARTS HERE</p><h2 id="how-title">A match is just<br><em>the beginning.</em></h2></div><p>The app makes the introduction.<br>Real life does the rest.</p></div>
-      <div class="steps">
-        <article class="step"><div class="step-top"><span class="step-number">01 /</span><svg class="step-icon" viewBox="0 0 80 64" fill="none" aria-hidden="true"><rect x="7" y="12" width="34" height="42" rx="10" transform="rotate(-10 7 12)" stroke="currentColor" stroke-width="2"/><rect x="38" y="4" width="34" height="42" rx="10" transform="rotate(12 38 4)" fill="#f7f5ed" stroke="currentColor" stroke-width="2"/><circle cx="22" cy="28" r="4" fill="currentColor"/><path d="M15 43c2-7 13-9 16-3M48 31c3-7 12-5 14 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="56" cy="20" r="4" fill="currentColor"/></svg></div><h3>Meet your kind of people.</h3><p>Start in the app. Discover your matches and find people who are up for a little adventure, too.</p></article>
-        <article class="step"><div class="step-top"><span class="step-number">02 /</span><svg class="step-icon" viewBox="0 0 80 64" fill="none" aria-hidden="true"><path d="M12 48c0-16 52 8 52-12S19 34 19 17" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"/><path d="M60 7c-8 0-13 5-13 11 0 9 13 19 13 19s13-10 13-19c0-6-5-11-13-11Z" fill="#e4ecde" stroke="currentColor" stroke-width="2"/><circle cx="60" cy="18" r="4" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="49" r="5" fill="currentColor"/><path d="M12 9h14M19 2v14" stroke="currentColor" stroke-width="2"/></svg></div><h3>Make a plan. Get outside.</h3><p>Sign up for an experience. We’ll bring a group of matches together to discover somewhere new.</p></article>
-        <article class="step"><div class="step-top"><span class="step-number">03 /</span><svg class="step-icon" viewBox="0 0 80 64" fill="none" aria-hidden="true"><path d="m41 4 4 15 13-8-6 15 17 2-14 9 12 11-18-1 1 15-10-12-10 12 1-15-18 1 12-11-14-9 17-2-6-15 13 8Z" fill="#f2c9b4" stroke="currentColor" stroke-width="2"/><path d="M30 34c4 8 15 8 20 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="26" r="2" fill="currentColor"/><circle cx="48" cy="26" r="2" fill="currentColor"/></svg></div><h3>See if you vibe.</h3><p>Walk, talk, take a detour. Let the conversation happen naturally and see where the connection goes.</p></article>
+    <path d="M157 94 l6 7 l-6 7 M317 94 l6 7 l-6 7" fill="none" class="s-text" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g>
+      <g style="--body: var(--you-body); --skin: var(--you-skin); --hair: var(--you-hair)"><use href="#mv-bust" x="28" y="48" width="44" height="110"/><use href="#mv-hair-long" x="28" y="48" width="44" height="110"/></g>
+      <circle cx="50" cy="65.6" r="17" fill="none" class="s-text" stroke-width="2.6"/>
+      <g style="--body: var(--il-teal); --skin: #7a4a2c; --hair: #141414"><use href="#mv-bust" x="88" y="48" width="44" height="110"/><use href="#mv-hair-curly" x="88" y="48" width="44" height="110"/></g>
+      <g style="--body: var(--il-sun); --skin: #f3cfa8; --hair: #d6a24a"><use href="#mv-bust" x="28" y="104" width="44" height="110"/><use href="#mv-hair-bun" x="28" y="104" width="44" height="110"/></g>
+      <g style="--body: var(--il-coral); --skin: #b0744a; --hat: var(--il-teal)"><use href="#mv-bust" x="88" y="104" width="44" height="110"/><use href="#mv-beanie" x="88" y="104" width="44" height="110"/></g>
+      <circle cx="80" cy="30" r="15" class="f-coral"/>
+      <text x="80" y="37" text-anchor="middle" class="il-badge-text il-badge-text--ink" font-size="19">3</text>
+    </g>
+
+    <g>
+      <g style="--body: var(--you-body); --skin: var(--you-skin); --hair: var(--you-hair)"><use href="#mv-bust" x="188" y="48" width="44" height="110"/><use href="#mv-hair-long" x="188" y="48" width="44" height="110"/></g>
+      <circle cx="210" cy="65.6" r="17" fill="none" class="s-text" stroke-width="2.6"/>
+      <g style="--body: var(--il-coral); --skin: #f3cfa8; --hair: #7a3f22"><use href="#mv-bust" x="248" y="48" width="44" height="110"/><use href="#mv-hair-short" x="248" y="48" width="44" height="110"/></g>
+      <g style="--body: var(--il-linden-deep); --skin: #e0a878; --hair: #a9a29a"><use href="#mv-bust" x="188" y="104" width="44" height="110"/><use href="#mv-hair-long" x="188" y="104" width="44" height="110"/></g>
+      <g style="--body: var(--il-sun); --skin: #7a4a2c; --hair: #141414"><use href="#mv-bust" x="248" y="104" width="44" height="110"/><use href="#mv-hair-short" x="248" y="104" width="44" height="110"/></g>
+      <circle cx="240" cy="30" r="15" class="f-teal"/>
+      <text x="240" y="37" text-anchor="middle" class="il-badge-text" font-size="19">7</text>
+    </g>
+
+    <g>
+      <g style="--body: var(--you-body); --skin: var(--you-skin); --hair: var(--you-hair)"><use href="#mv-bust" x="348" y="48" width="44" height="110"/><use href="#mv-hair-long" x="348" y="48" width="44" height="110"/></g>
+      <circle cx="370" cy="65.6" r="17" fill="none" class="s-text" stroke-width="2.6"/>
+      <g style="--body: var(--il-teal); --skin: #b0744a; --hair: #2a1d16"><use href="#mv-bust" x="408" y="48" width="44" height="110"/><use href="#mv-hair-bun" x="408" y="48" width="44" height="110"/></g>
+      <g style="--body: var(--il-coral); --skin: #e0a878; --hair: #7a3f22"><use href="#mv-bust" x="348" y="104" width="44" height="110"/><use href="#mv-hair-curly" x="348" y="104" width="44" height="110"/></g>
+      <g style="--body: var(--il-ink-soft); --skin: #f3cfa8; --hat: var(--il-coral)"><use href="#mv-bust" x="408" y="104" width="44" height="110"/><use href="#mv-beanie" x="408" y="104" width="44" height="110"/></g>
+      <circle cx="400" cy="30" r="15" class="f-sun"/>
+      <text x="400" y="37" text-anchor="middle" class="il-badge-text il-badge-text--ink" font-size="19">2</text>
+    </g>
+  </g>
+</svg>
+      <figcaption>You, circled, get a new group every round, with its own number and colour on your phone. Three rounds, nine new people.</figcaption>
+    </figure>
+    <ul class="reasons" role="list">
+      <li>
+        <h3>Nobody is stuck</h3>
+        <p>You never spend a round alone with a stranger. When one conversation pauses, another one starts.</p>
+      </li>
+      <li>
+        <h3>Up to fifteen new people</h3>
+        <p>Five rounds with three new people each. That is three times as many people as you would meet in pairs.</p>
+      </li>
+      <li>
+        <h3>Built on what you share</h3>
+        <p>Groups form around shared interests. Likes nudge who walks with whom, but they never decide it.</p>
+      </li>
+    </ul>
+    <figure class="stats">
+      <figcaption class="figure-title">More people you'll both want to see again</figcaption>
+      <ul class="stats__list" role="list">
+        <li><strong>+84%</strong> at friends walks</li>
+        <li><strong>+58%</strong> at mixed walks</li>
+        <li><strong>+27%</strong> at dating walks</li>
+      </ul>
+      <p class="figure-note">Mutual "see again" choices per person in groups of four, compared with pairs. From 1,080 simulated Berlin walks, shown here for walks of 40 people.</p>
+    </figure>
+  </div>
+</section>
+
+<section class="section section--ink" id="seats" aria-labelledby="seats-title">
+  <svg class="wave wave--top" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 40 V22 C 160 4, 320 4, 480 18 S 800 36, 960 20 S 1280 2, 1440 16 V40 Z"/></svg>
+  <div class="container seats">
+    <div class="seats__text">
+      <p class="kicker">Your people are out there</p>
+      <h2 id="seats-title">One seat each, every round</h2>
+      <p>On a dating app, a handful of profiles collect most of the matches. At a walk, everyone holds one seat in every round, however many likes they got.</p>
+      <p>Likes help decide who walks with whom, never whether you walk. So the matches spread across the whole group.</p>
+    </div>
+    <figure class="seats__figure">
+      <figcaption class="figure-title">After a walk, the most desired 5% of people hold 12% of the matches. On an app, 34%.</figcaption>
+      <div class="seat-chart" style="--seats: 5%">
+  <ul class="seat-chart__rows" role="list">
+  <li class="seat-chart__row seat-chart__row--muted">
+    <span class="seat-chart__label">On an app, among the same people</span>
+    <span class="seat-chart__track"><span class="seat-chart__bar" style="--share: 34%"></span><span class="seat-chart__value">34%</span></span>
+  </li>
+  <li class="seat-chart__row seat-chart__row--accent">
+    <span class="seat-chart__label">After a walk</span>
+    <span class="seat-chart__track"><span class="seat-chart__bar" style="--share: 12%"></span><span class="seat-chart__value">12%</span></span>
+  </li>
+  </ul>
+  <p class="seat-chart__key"><span class="seat-chart__tick" aria-hidden="true"></span>5%: their share of the seats</p>
+</div>
+      <p class="figure-note">Simulated Berlin dating walks of 40 people, compared with an app feed of the same people. Looks still count in person, so the most desired keep more than their 5% of the seats.</p>
+    </figure>
+  </div>
+  <svg class="wave wave--bottom" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 0 V18 C 200 36, 380 34, 560 20 S 900 2, 1080 16 S 1340 34, 1440 24 V0 Z"/></svg>
+</section>
+
+<section class="section section--sand" id="safety" aria-labelledby="safety-title">
+  <svg class="wave wave--top" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 40 V22 C 160 4, 320 4, 480 18 S 800 36, 960 20 S 1280 2, 1440 16 V40 Z"/></svg>
+  <div class="container">
+    <header class="section__head">
+      <p class="kicker">Safety</p>
+      <h2 id="safety-title">Safe by design</h2>
+      <p class="lead">The walk itself is the safety plan: a public route, an organizer on site, groups of four, and no contact details until two people both say yes.</p>
+    </header>
+    <ul class="safety" role="list">
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 8V6.5a3 3 0 0 1 3-3H8M16 3.5h1.5a3 3 0 0 1 3 3V8M20.5 16v1.5a3 3 0 0 1-3 3H16M8 20.5H6.5a3 3 0 0 1-3-3V16"/><circle cx="12" cy="12" r="5"/><path d="M10.2 13.2a2.4 2.4 0 0 0 3.6 0M10.3 10.6h.01M13.7 10.6h.01"/></svg>
+        <h3>Faces checked at the start</h3>
+        <p>The organizer compares every face with its profile photo before the first round. A fake profile ends at the meeting point.</p>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><circle cx="8.5" cy="10.5" r="2"/><path d="M5.5 15.5a3 3 0 0 1 6 0M14.5 10h4M14.5 14h2.5"/></svg>
+        <h3>Contact only when it's mutual</h3>
+        <p>No chat and no phone numbers on profiles. You see someone's contact details only when you both chose to meet again, and only the details they picked.</p>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M6 6l12 12"/></svg>
+        <h3>Block once, never grouped again</h3>
+        <p>Anyone you block or report is never put in your group again, at any walk. If they hold a ticket for your walk, the app tells you first.</p>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="2.6"/><circle cx="16" cy="8" r="2.6"/><path d="M3.5 15a4.5 4.5 0 0 1 9 0M11.5 15a4.5 4.5 0 0 1 9 0M4 19.5h16"/></svg>
+        <h3>Women-only groups</h3>
+        <p>At friends and mixed walks, women can choose to walk only with women.</p>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5M12 14.5v2"/></svg>
+        <h3>Private by default</h3>
+        <p>Your profile is visible only to people with a ticket for the same walk. Notifications never show names.</p>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3M12 7.5v5M9.5 10h5"/></svg>
+        <h3>Help is one tap away</h3>
+        <p>During the walk the app shows the emergency number 112 and the organizer's phone number.</p>
+      </li>
+    </ul>
+    <p class="safety__more">Everyone accepts our <a href="./code-of-conduct/">code of conduct</a> at sign-up. Serious breaches end a membership at once.</p>
+  </div>
+  <svg class="wave wave--bottom" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 0 V18 C 200 36, 380 34, 560 20 S 900 2, 1080 16 S 1340 34, 1440 24 V0 Z"/></svg>
+</section>
+
+<section class="section" id="walks" aria-labelledby="walks-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="kicker">Get a little lost. Together.</p>
+      <h2 id="walks-title">Pick your Saturday</h2>
+      <p class="lead">A different neighbourhood every other Saturday: hidden corners, waterside paths and the places you've walked past a hundred times, seen through someone else's eyes. Tickets are sold on Eventfrog.</p>
+    </header>
+    <ol class="walk-list" role="list" data-walk-list data-shown="3">
+
+</ol>
+<div class="walk-empty" data-walk-empty>
+  <p>New walks are coming soon.</p>
+</div>
+  </div>
+</section>
+
+<section class="section section--tight" id="faq" aria-labelledby="faq-title">
+  <div class="container faq">
+    <header class="section__head">
+      <p class="kicker">FAQ</p>
+      <h2 id="faq-title">Good questions</h2>
+    </header>
+    <div class="faq__list">
+      <details>
+        <summary>Is meet&amp;vibe a dating app?</summary>
+        <p>It's a way to meet real people in real life. You'll make cool friends, or maybe find your special someone. Friendship is the default. Dating is something you switch on, behind its own consent screen. One switch turns it off again and deletes your dating data. Each walk says on its page whether it is a friends walk, a mixed walk or a dating walk.</p>
+      </details>
+      <details>
+        <summary>Do I need to bring someone?</summary>
+        <p>No. Coming on your own is the idea, and the groups make it easy: a question each round gets the conversation going, so nobody has to break the ice alone. Friends are welcome too. Each of you gets your own ticket and profile. The rounds mix everyone, so you all meet new people, and you can catch up over drinks at the end.</p>
+      </details>
+      <details>
+        <summary>What if nobody likes my profile?</summary>
+        <p>You still walk in a group in every round. Likes help decide who walks with whom, never whether you walk. Groups form mainly around shared interests.</p>
+      </details>
+      <details>
+        <summary>Will I meet someone I click with?</summary>
+        <p>A walk spreads the chances far more evenly than an app. In simulated mixed walks of 40 people, 8% left without a mutual choice. On an app with the same people, 18% would get no match at all. At dating walks of 40 the shares are 15% and 51%.</p>
+      </details>
+      <details>
+        <summary>How are the groups put together?</summary>
+        <p>Around shared interests. Your profile holds six interest tags, and each group forms around the tags its members share. A like counts about as much as one shared interest. Every round brings new people for as long as the walk has enough of them.</p>
+      </details>
+      <details>
+        <summary>Can people see who liked them?</summary>
+        <p>No. Likes only help plan the groups. Nobody is ever told who liked them, and skipping someone is silent.</p>
+      </details>
+      <details>
+        <summary>Is there a chat?</summary>
+        <p>No. Offline is a good place to be. When two people both choose to see each other again, each gets the other's contact card, holding whatever that person chose to share: a phone number, an Instagram handle, an email address or a single line of text.</p>
+      </details>
+      <details>
+        <summary>What does "Not this time" do?</summary>
+        <p>Nothing is revealed to anyone, and the two of you are never put in the same group again.</p>
+      </details>
+      <details>
+        <summary>What if I'm running late?</summary>
+        <p>Check in with the organizer when you arrive and you join the next round. The app re-plans the rounds still ahead, so nobody waits.</p>
+      </details>
+      <details>
+        <summary>What should I bring?</summary>
+        <p>A charged phone and comfortable shoes. A walk takes about two hours: fifteen minutes to arrive and check in, five rounds of twenty minutes, then drinks nearby if you feel like it.</p>
+      </details>
+      <details>
+        <summary>Do I need to install an app?</summary>
+        <p>No. A little online, a lot of real life: meet&amp;vibe runs in your phone's browser, and you can add it to your home screen. You sign in with a six-digit code sent to your email, so there is no password to remember.</p>
+      </details>
+      <details>
+        <summary>Who can join, and what does it cost?</summary>
+        <p>Anyone aged 18 or over, and the organizer may check ID at the walk. Tickets are sold per walk on Eventfrog, where you see the price and the cancellation terms before you buy.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta" aria-labelledby="cta-title">
+  <div class="container">
+    <div class="cta__card">
+      <div class="cta__art"><svg class="art art--cta" viewBox="0 0 400 290" aria-hidden="true" focusable="false">
+  <path class="il-cloud f-cloud" d="M262 40 a14 14 0 0 1 19 -15 a19 19 0 0 1 35 4 a12 12 0 0 1 4 23 h-50 a11 11 0 0 1 -8 -12 z"/>
+  <path d="M96 58 Q 250 122, 404 48" fill="none" class="s-ink" stroke-width="1.6"/>
+  <path class="f-coral" d="M121 65.5 L139 72 L127 86 Z"/>
+  <path class="f-teal" d="M166 79 L184 84 L172 99 Z"/>
+  <path class="f-paper" d="M211 86 L229 88 L218 104 Z"/>
+  <path class="f-coral" d="M256 87 L274 86 L266 103 Z"/>
+  <path class="f-teal" d="M301 82 L319 79 L312 96 Z"/>
+  <path class="f-paper" d="M346 72 L364 67 L358 85 Z"/>
+
+  <path class="f-hill" d="M18 262 C 50 240, 350 234, 384 256 Q 394 276 364 278 L 36 278 Q 6 276 18 262 Z"/>
+  <rect x="58" y="120" width="15" height="136" rx="7" class="f-trunk"/>
+  <circle cx="66" cy="100" r="60" class="f-tree"/>
+  <circle cx="36" cy="82" r="24" class="f-tree-light"/>
+  <circle cx="100" cy="68" r="20" class="f-tree-light"/>
+  <circle cx="84" cy="128" r="22" class="f-tree-dark"/>
+
+  <g style="--body: var(--il-coral); --skin: #f3cfa8; --hair: #7a3f22"><use href="#mv-person" x="140" y="132" width="48" height="120"/><use href="#mv-hair-long" x="140" y="132" width="48" height="120"/></g>
+  <g style="--body: var(--il-teal); --skin: #7a4a2c; --hair: #141414"><use href="#mv-person-wave" x="190" y="128" width="48" height="120"/><use href="#mv-hair-curly" x="190" y="128" width="48" height="120"/></g>
+  <g style="--body: #1d2321; --legs: #3b4340; --skin: #e0a878; --hat: var(--il-coral)"><use href="#mv-person" x="242" y="134" width="48" height="120"/><use href="#mv-beanie" x="242" y="134" width="48" height="120"/></g>
+
+  <g class="il-dog" transform="translate(30 -128)">
+    <path d="M262 371 q-12 -8 -10 -18" fill="none" class="s-dog il-dog-tail" stroke-width="4" stroke-linecap="round"/>
+    <path d="M266 380 L265 392 M274 381 L274 392 M284 381 L285 391 M292 379 L294 390" class="s-dog" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="279" cy="374" rx="18" ry="9.5" class="f-dog"/>
+    <circle cx="296" cy="364" r="8.5" class="f-dog"/>
+    <ellipse cx="303" cy="367" rx="5" ry="3.6" class="f-dog"/>
+    <path d="M290 358 q-4 4 -2 11 q5 -2 6 -9 z" class="f-dog-dark"/>
+    <circle cx="298" cy="362" r="1.4" class="f-ink"/>
+    <circle cx="307.4" cy="366" r="1.6" class="f-ink"/>
+  </g>
+</svg></div>
+      <div class="cta__text">
+        <h2 id="cta-title">Your next good story starts with “hello”</h2>
+        <p>Make room for a little serendipity. Bring comfortable shoes and a charged phone. We'll bring the people.</p>
+        
+        <p>The first walks are coming soon, with tickets on Eventfrog.</p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section class="berlin-section" id="berlin" aria-labelledby="berlin-title"><div class="wrap berlin-grid">
-      <div class="berlin-poster" aria-hidden="true"><span class="poster-top">52°31′ N &nbsp; 13°24′ E</span><span class="poster-title">Hallo,<br><i>Berlin.</i></span><svg viewBox="0 0 440 240" class="poster-skyline"><path d="M0 211h440v29H0z" fill="#c6d4bb"/><g fill="none" stroke="#f6f3e9" stroke-width="3"><path d="M63 213V114h52v99m-44-99v-17h36v17M78 98V81h23v17M84 82V65h11v17M87 65V51M267 212l7-116m16 116-7-116M278 54V0m-4 54v42h9V54"/><ellipse cx="278" cy="70" rx="20" ry="12" fill="#f6f3e9"/><path d="M142 213v-71h77v71m-81-71 42-27 42 27M144 164h73m-61 0v47m19-47v47m19-47v47M331 213v-94h73v94m-81-94 45-25 44 25M345 134v14m20-14v14m20-14v14m-40 20v14m20-14v14m20-14v14M20 213v-48h29v48"/></g><path d="M0 226c72-35 105 27 180-1s135-10 260-5v20H0Z" fill="#d9a88e"/></svg><span class="poster-sticker">Same city.<br><i>New perspective.</i></span></div>
-      <div class="berlin-copy"><p class="eyebrow">BIG CITY. SMALL-WORLD MOMENTS.</p><h2 id="berlin-title">A new side of Berlin.<br>A new side of <em>you.</em></h2><p>A city full of people can still feel like a place where everyone’s a stranger. Let’s change that, one shared experience at a time.</p><p>Our first chapter is all about discovering Berlin on foot. Hidden corners, waterside paths, and the places you’ve walked past a hundred times — seen through someone else’s eyes.</p><a class="text-link" href="#first-walks">Let’s take the scenic route <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-    </div></section>
-
-    <section class="walks-section wrap section-space" id="first-walks" aria-labelledby="walks-title"><div class="section-heading"><div><p class="eyebrow">A TASTE OF WHAT’S AHEAD</p><h2 id="walks-title">Great company.<br><em>A different kind of walk.</em></h2></div><p>No perfect opening line needed.<br>Just a little curiosity.</p></div>
-      <div class="walk-cards">
-        <article class="walk-card"><div class="walk-art canal-art"><span class="walk-tag">BY THE WATER</span><svg viewBox="0 0 400 270" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M0 0h400v270H0z" fill="#cfdbcc"/><path d="M127 0c-13 100 142 108 82 270h191V0" fill="#9bbab9"/><path d="M113 0c-14 100 141 109 76 270" stroke="#f1e7cb" stroke-width="27" fill="none"/><path d="M16 167c114-22 238-70 384-50" stroke="#285448" stroke-width="15" fill="none"/><path d="M16 155c114-22 238-70 384-50" stroke="#f7f5ed" stroke-width="8" fill="none"/><path d="m225 203 24 9-35 9Z" fill="#b74734"/><path d="m222 204 3-38 20 39Z" fill="#f6f0df"/><g fill="#3c6550"><circle cx="39" cy="58" r="36"/><circle cx="3" cy="85" r="38"/><circle cx="53" cy="229" r="43"/><circle cx="375" cy="24" r="55"/></g><path d="m48 99-1-59m8 213-1 57" stroke="#254b3c" stroke-width="5"/></svg><span class="walk-art-caption">Take it slow.</span></div><div class="walk-card-copy"><span class="card-kicker">WATERSIDE WANDERS</span><h3>Follow the conversation.</h3><p>A meandering path. Water beside you. A group of new faces and nowhere else you need to be.</p><span class="coming-label"><span class="status-dot"></span> Coming to Berlin</span></div></article>
-        <article class="walk-card"><div class="walk-art neighbourhood-art"><span class="walk-tag">AROUND THE CORNER</span><svg viewBox="0 0 400 270" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M0 0h400v270H0z" fill="#ecd6b5"/><path d="M0 70h130v200H0z" fill="#cd8668"/><path d="M140 35h131v235H140z" fill="#d7ae6f"/><path d="M281 84h119v186H281z" fill="#9dafa0"/><g fill="#3a5147"><path d="M21 98h25v38H21zm59 0h25v38H80zM21 158h25v38H21zm59 0h25v38H80zM160 61h25v38h-25zm59 0h25v38h-25zm-59 60h25v38h-25zm59 0h25v38h-25zM302 107h25v38h-25zm49 0h25v38h-25zM302 165h25v38h-25zm49 0h25v38h-25z"/><path d="M158 270v-70q43-52 88 0v70z"/></g><path d="M0 246h400v24H0" fill="#e8e3cc"/><path d="M122 186h146v15H122z" fill="#f6f0df"/><path d="m125 186 8-18h123l10 18" fill="#b74734"/><path d="M132 170v16m21-16v16m21-16v16m21-16v16m21-16v16m21-16v16m21-16v16" stroke="#f6f0df" stroke-width="9"/><circle cx="29" cy="218" r="30" fill="#42654c"/><path d="M29 218v52" stroke="#285448" stroke-width="6"/></svg><span class="walk-art-caption">Find your next favourite.</span></div><div class="walk-card-copy"><span class="card-kicker">NEIGHBOURHOOD DETOURS</span><h3>Get a little lost. Together.</h3><p>Turn down that side street. Discover a new corner of the city, and a few people worth knowing.</p><span class="coming-label"><span class="status-dot"></span> Coming to Berlin</span></div></article>
-      </div><p class="walks-note">A little inspiration for our first experiences. Routes and dates will be announced when we launch.</p>
-    </section>
-
-    <section class="faq-section wrap" aria-labelledby="faq-title"><div><p class="eyebrow">A FEW THINGS YOU MIGHT WONDER</p><h2 id="faq-title">Before we<br><em>head out.</em></h2></div><div class="faq-list"><details><summary>What exactly is meet&vibe?<span aria-hidden="true">+</span></summary><p>meet&vibe brings people together for in-person experiences, with a little help from an app. You match online, sign up for an activity, and meet a group in real life to see how you connect.</p></details><details><summary>Do I need to bring someone?<span aria-hidden="true">+</span></summary><p>You can come on your own — that’s the idea. You’ll meet a group of people matched through the app, with a shared activity to get the conversation started.</p></details><details><summary>Where will the first experiences happen?<span aria-hidden="true">+</span></summary><p>We’re starting in Berlin with group walks to discover the city together. Specific meeting points, routes, and dates will be shared when experiences become available.</p></details><details><summary>When can I try the app?<span aria-hidden="true">+</span></summary><p>The app and our first Berlin experiences are coming soon. We’ll share launch details and ways to join here on meetandvibe.com. There’s no waitlist or booking available just yet.</p></details></div></section>
-
-    <section class="closing-section" aria-labelledby="closing-title"><div class="wrap"><span class="closing-star" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><path d="M32 5v54M5 32h54M13 13l38 38M13 51l38-38" stroke="currentColor" stroke-width="7" stroke-linecap="round"/></svg></span><p class="eyebrow">MAKE ROOM FOR A LITTLE SERENDIPITY</p><h2 id="closing-title">Your next good story<br>starts with <em>“hello.”</em></h2><p>Meet online. Make memories offline.</p><span class="launch-pill"><span class="status-dot"></span> Berlin, we’ll see you soon.</span></div></section>
   </main>
-  <footer class="site-footer wrap"><a class="wordmark" href="#" aria-label="meet&amp;vibe. home">meet<span>&</span>vibe<span class="brand-dot">.</span></a><p>Made for the moments between the plans.</p><span>© <span id="year">2026</span> meet&vibe</span></footer>
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__brand">
+      <a class="brand" href="./" aria-label="meet&amp;vibe home"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="6.5" r="5.5" class="f-coral"/><circle cx="25.5" cy="16" r="5.5" class="f-teal"/><circle cx="16" cy="25.5" r="5.5" class="f-linden"/><circle cx="6.5" cy="16" r="5.5" class="f-sun"/></svg><span class="brand__word">meet<span class="brand__amp">&amp;</span>vibe</span></a>
+      <p>Made for the moments between the plans.</p>
+    </div>
+    <nav class="site-footer__nav" aria-label="More">
+      <ul role="list">
+        <li><a href="./about/">About us</a></li>
+        <li><a href="./code-of-conduct/">Code of conduct</a></li>
+        
+        
+      </ul>
+    </nav>
+    <div class="site-footer__fine">
+      <p>This site sets no cookies and loads nothing from other servers.</p>
+      
+      <p>© 2026 meet&amp;vibe</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
